@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>生命倒计时</title>
+  <link rel="stylesheet" href="style/reset.css" />
+  <link rel="stylesheet" href="style/mycss.css" />
+</head>
+<body>
+ <div class=all_page><!--总页面-->
+  <header class="page_header"><!--头部-->
+     <div class="header_left left"><!--左头部-->
+          <p>你的生命正在倒计时...</p>
+     </div><!--左头部-->
+     <div class="header_right right"><!--右头部-->
+         <p>明日复明日,明日何其多,我生待明日,万事成蹉跎.世人若被明日累,春去秋来老将至.朝看水东流,暮看日西坠.百年明日能几何,请君听我明日歌.（文嘉《明日歌》）
+         </p>
+         <p>今日复今日,今日何其少!今日又不为,此事何时了!人生百年几今日,今日不为真可惜!若言姑待明朝至,明朝又有明朝事.为君聊赋今日诗,努力请从今日始.（文嘉《今日歌》）
+         </p>
+     </div><!--右头部-->
+ </header><!--头部-->
+ <main class=content><!--主区域-->
+     <div class=time_content><!--时间区域-->
+         <ul class=time>
+           <li><img src="images/0.jpg" height=100% id="1" /><img src="images/0.jpg" height=100% id="2"/><img src="images/0.jpg" height=100% id="3"/><img src="images/0.jpg" height=100% id="4"/><img src="images/0.jpg" height=100% id="5"/>天</li>
+           <li><img src="images/0.jpg" height=100% id="6"/><img src="images/0.jpg" height=100% id="7"/>小时</li>
+           <li><img src="images/0.jpg" height=100% id="8"/><img src="images/0.jpg" height=100% id="9"/>分钟</li>
+           <li><img src="images/0.jpg" height=100% id="10"/><img src="images/0.jpg" height=100% id="11"/>秒</li>
+       
+         </ul>
+     </div><!--时间区域-->
+      <div class=text_content><!--说明区域-->
+       
+            <p>请输入您的生辰：</p>
+            <input type="text" id="myyear" class="mytext" placeholder="1988" required maxlength="4" value="1988"/>
+            <p>年</p>
+             <input type="text" id="mymonth" class="mytext" placeholder="11" required maxlength="2" value="11"/>
+            <p>月</p>
+             <input type="text" id="myday" class="mytext" placeholder="16" required maxlength="2" value="16"/>
+            <p>日<br></p>
+            <p>您觉得自己能有多少寿命呢：</p>
+            <input type="text" id="years_old" class="mytext"   placeholder="80" required maxlength="3" value="80"/>
+            <input type="button" id="ok" value="提交" class="mytext" />
+      
+           <audio src="video/滴答.mp3" controls id="voice" style="display:none"></audio>
+     
+     </div><!--说明区域-->
+         <artical>
+                 <h1>你知道活着的意义么？</h1>
+                 <p>你跟所有物体，石头，树木，动物一样，都只是存在。他们的存在没有意义，你的存在也没有意义。
+    但是作为人类，你有思维，你有自我察觉，你有价值判断，所以你觉得自己应该有一个意义。（斯蒂芬·霍金《TheGrandDesign》）<br></p>
+                 <h2>《我为什么活着》-罗素</h2>
+                 <p>对爱情的渴望，对知识的追求，对人类苦难不可遏制的同情心，这三种纯洁而无比强烈的激情支配着我的一生。这三种激情，就像飓风一样，在深深的苦海上，肆意地把我吹来吹去，吹到濒临绝望的边缘。</p>
+                 <p>我寻求爱情，首先因为爱情给我带来狂喜，它如此强烈以致我经常愿意为了几小时的欢愉而牺牲生命中的其他一切。我寻求爱情，其次是因为爱情可以解除孤寂一—那是一颗震颤的心，在世界的边缘，俯瞰那冰冷死寂、深不可测的深渊。我寻求爱情，最后是因为在爱情的结合中，我看到圣徒和诗人们所想像的天堂景象的神秘缩影。这就是我所寻求的，虽然它对人生似乎过于美好，然而最终我还是得到了它。</p>
+                 <p>我以同样的热情寻求知识，我渴望了解人的心灵。我渴望知道星星为什么闪闪发光，我试图理解毕达哥拉斯的思想威力，即数字支配着万物流转。这方面我获得一些成就，然而并不多。</p>
+                 <p>爱情和知识，尽其可能地把我引上天堂，但是同情心总把我带回尘世。痛苦的呼唤经常在我心中回荡，饥饿的儿童，被压迫被折磨者，被儿女视为负担的无助的老人以及充满孤寂、贫穷和痛苦的整个世界，都是对人类应有生活的嘲讽。我渴望减轻这些不幸，但是我无能为力，而且我自己也深受其害。
+                 <p>这就是我的一生，我觉得值得为它活着。如果有机会的话，我还乐意再活一次。 </p>
+                 <h2>名人们论生命</h2>
+                 <p>人生天地之间，若白驹过隙，忽然而已（庄子） </p>
+                 <p>天地无终极，人命若朝霞（三国·曹植） </p>
+                 <p>我们全都是短命人，回忆者和被回忆者全都一样----（马可·奥勒留） </p>
+                 <p>人生的意义不在于何以有生，而在于自己怎么生活。你若情愿把这六尺之躯葬送在白昼做梦之上，那就是你这一生的意义。你若发愤振作起来，决心去寻求生命的意义，去创造自己的生命的意义，那么你活一日便有一日的意义，做一事便添一事的意义，生命无穷，生命的意义也无穷了。——胡适 《人生有何意义》</p>
+                 <p><h2>看了这么多，知乎上一个帖子让我陷入沉思...</h2>
+                 <a href="https://www.zhihu.com/question/24329745?rf=19556992" title="点击了解更多" target="_blank" >网友们是这样看的...（这个链接很重要）</a> </p>
+                 <p>(ˇˍˇ） 推荐几个视频：（广告是没办法）</p>
+                 <embed src='http://player.youku.com/player.php/Type/Folder/Fid//Ob//sid/XMTQzMTU4NTgw/v.swf' quality='high' width='260' height='250' align='middle' allowScriptAccess='always' allowFullScreen='true' mode='transparent' type='application/x-shockwave-flash'></embed>
+                 <embed src='http://player.youku.com/player.php/sid/XMTI1ODY4MTk5Ng==/v.swf' allowFullScreen='true' quality='high' width='260' height='250' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
+                 <embed src='http://player.youku.com/player.php/sid/XNzU1OTgzMzQw/v.swf' allowFullScreen='true' quality='high' width='260' height='250' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
+                 <embed src='http://player.youku.com/player.php/sid/XNzkwMTQ5NTEy/v.swf' allowFullScreen='true' quality='high' width='260' height='250' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
+         </artical>
+    
+    <div class=side_content><!--附注栏-->
+     <!-- <input type="text" class=search title="search" value="时间" />
+      <input type="button" class="search_btn" title="百度一下你就知道" />-->
+      <form id="bdfm" target="_blank" name="bdfm" method="get" action="http://www.baidu.com/s">
+    <table>
+       <tr>
+            <td>
+                 <a href="http://www.baidu.com"></a>
+            </td>
+            <td><br/><input type="text" class="search" name="word" /></td>
+            <td><br/><input type="submit"  class="search_btn"  value=""/></td>
+         </tr>
+    </table>
+</form> 
+      <h3>网站是我做的</h3>
+          <img src="images/1寸31.JPG" width=100px/>
+          <p>照片是不是很搞笑，这是我六年前的证件照，颜值全靠他撑着了...
+          </p>
+          <p>我知道，这个网站很差劲，自己先吐槽一下：
+              <ol>
+                 <li>1、首先很难看</li>
+                 <li>2、其次代码一点不精炼</li>
+                 <li>3、还有不能评论互动</li>
+                 <li>4、网站制作人员太丑</li>
+              </ol>
+          </p>
+          <p>针对以上问题我尽量随着不断学习进行改正吧，大家要给我提意见，欢迎扫下方二维码联系我，有红包呢</p>
+          <img src="images/二维码.jpg" width=50% />
+          <div class=my_book>
+             <h2>好书推荐</h2>
+             <ul>
+               <li><a href="https://book.douban.com/subject/1082178/">《幸福之路》</a>
+                   <p>作者: 伯特兰·罗素</p>
+               </li>
+               <li> <a href="https://book.douban.com/subject/3722967/">《人生十论》</a>
+                   <p>作者: 钱穆</p>
+               </li>
+               <li>
+                   <a href="https://book.douban.com/subject/1034282/">《时间简史》</a>
+                   <p>作者: 史蒂芬·霍金</p>
+               </li>
+             </ul>
+           </div>
+
+    </div><!--附注栏-->
+  </main>
+  <footer>
+  <p>1234567890abcdefghijklmnopqrstuvwxyz</p>
+ </footer>
+ <script src="js/javascript.js"></script>
+</div>
+</body>
+</html>
